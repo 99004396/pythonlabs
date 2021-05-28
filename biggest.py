@@ -1,4 +1,4 @@
-def biggest(a,b,c):
+def biggestnum(a,b,c):
     max=0;
     if a>b and a>c:
         max=a;
@@ -10,4 +10,4 @@ def biggest(a,b,c):
 a=input()
 b=input()
 c=input()
-print(biggest(a,b,c))
+print(biggestnum(a,b,c))
